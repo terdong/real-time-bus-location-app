@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.teamgehem.businfoc" android:versionCode="3" android:versionName="1.6">
+    <application android:icon="@drawable/icon" android:label="@string/app_name" 
+    			>
+    <!-- T AD SDK App ID 
+		<meta-data android:value="MY-APP-ID" android:name="TAD_APP_ID" />
+		
+				 T AD SDK Activities 
+		<activity android:configChanges="orientation|keyboard|keyboardHidden"
+			android:screenOrientation="user" android:label="AdPopupView"
+			android:theme="@android:style/Theme.Translucent.NoTitleBar"
+			android:name="com.sktelecom.tad.sdk.AdPopupView">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+				 T AD SDK Activities -->
+				
+        <activity android:name=".CheonanBusInfo" android:screenOrientation="portrait"
+                  android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+	<activity android:name="TabSearchSearch"></activity>
+	<activity android:name="TabSearchResult"></activity>
+	<activity android:name="TabSearchGroup"></activity>
+	<activity android:name="TabState"></activity>
+	<activity android:name="TabOption"></activity>
+	<activity android:name="TabHome"></activity>
+</application>
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<!-- T AD SDK Permissions 
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+	<uses-permission android:name="android.permission.CALL_PHONE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> -->
+    <uses-sdk android:minSdkVersion="7" />
+
+</manifest> 

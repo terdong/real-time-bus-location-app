@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">천안 시내버스 실시간 검색 앱</string>
+	<string name="dummy">Team Gehem</string>
+	<string name="dummy_long">Team Gehem은 2009년 11월 27날 결성되었으며, 2011년 현재 창업준비를 하고 있는 중이다.</string>
+	<string name="tab_title_home">처음</string>
+	<string name="tab_title_state">상황</string>
+	<string name="tab_title_search">검색</string>
+	<string name="tab_title_search_stop">정류장 검색</string>
+	<string name="tab_title_search_line">버스 검색</string>
+	<string name="tab_title_option">설정</string>
+	<string name="state_busnum_str">번 버스 도착까지</string>
+	<string name="state_msgright_str">분 남았습니다.</string>
+	<string name="state_msg_dummy">10</string>
+	<string name="state_busnum_dummy">100</string>
+	<string name="search_radiobutton_stop_str">정류장 검색</string>
+	<!-- <string name="search_radiobutton_goal_str">목적지</string> -->
+	<string name="search_radiobutton_line_str">버스노선 검색</string>
+	<string name="search_btn_stopinfo_str">경유지 안내</string>
+	<string name="search_btn_search_str">검색하기</string>
+	<string name="search_table_title_contents">정류장 - 천안 시내에 있는 정류장 목록을 출력합니다.\n
+												기점 - 버스가 처음 출발하는 정류장 위치입니다.\n
+												종점 - 버스가 마지막으로 정차하는 정류장 위치입니다.\n</string>
+	<string name="request_param_address">http://its.cheonan.go.kr/service/bus/BusController</string>
+	<string name="request_param_character_type">EUC-KR</string>
+	<string name="request_param_action_all">/service/bus/BusController</string>
+	<string name="request_param_cmd_stopname">buslocationstop</string>
+	<string name="request_param_cmd_stopid">buslocationlinelist</string>
+	<string name="request_param_cmd_linename">buslocationline</string>
+	<string name="request_param_cmd_lineid">buslocationinfoview</string>
+	<string name="request_param_type_stopname">1</string>
+	<string name="request_param_pattern_msg">\'([0-9]*?)\'</string>
+	
+	<string name="request_filter_stop_msg">0</string>
+	<string name="request_filter_stop_00">정류장</string>
+	<string name="request_filter_stop_01">보기</string>
+	<string name="request_filter_line_msg">1</string>
+	<string name="request_filter_line_00">노선</string>
+	<string name="request_filter_line_01">기점</string>
+	<string name="request_filter_line_02">종점</string>
+	<string name="request_filter_current_msg">2</string>
+	<string name="request_filter_current_00">정류장</string>
+	<string name="request_filter_current_01">보기</string>
+	
+	<string name="dialog_title">잠시만 기다려주세요.</string>
+	<string name="dialog_msg">업데이트 중입니다.</string>
+	<string name="dialog_btn_cancel">취소</string>
+	
+	<string name="toast_msg_complete">업데이트를 완료 하였습니다.</string>
+	<string name="toast_msg_failed">입력하신 내용을 찾지 못했습니다.</string>
+	<string name="toast_msg_cancel">업데이트를 취소 하셨습니다.</string>
+	<string name="toast_msg_none">준비중인 기능입니다.</string>
+
+	<string name="table_listview_stop_stop_content_title">정류장</string>
+	<string name="table_listview_line_content_first_title">노선</string>
+	<string name="table_listview_line_content_second_title">기점</string>
+	<string name="table_listview_line_content_third_title">종점</string>
+	<string name="table_listview_current_stop_content_title"><![CDATA[---현재 정류장(버스번호)---\n]]></string>
+	<string name="table_listview_current_stop_btn_str">상황판 등록</string>
+	<string name="table_listview_current_stop_content_none">현재 정차중인 버스가 없습니다.</string>
+</resources>
+
+
+
+
+
+
+

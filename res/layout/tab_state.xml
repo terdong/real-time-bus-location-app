@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/state_busnum_margin"
+		android:layout_gravity="center_horizontal">
+		<TextView android:id="@+id/state_busnum"
+			android:text="@string/state_busnum_dummy"
+			android:textSize= "@dimen/state_busnum_textsize"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+		<TextView
+			android:text="@string/state_busnum_str"
+			android:textSize= "@dimen/state_busnum_textsize"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+	</LinearLayout>
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/state_msg_margin"
+		android:layout_marginBottom="@dimen/state_msg_margin"
+		android:layout_gravity="center_horizontal">
+		<TextView android:id="@+id/state_msg"
+			android:text="@string/state_msg_dummy"
+			android:textSize="@dimen/state_msg_textsize"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+		<TextView
+			android:text="@string/state_msgright_str"
+			android:textSize="@dimen/state_msgright_textsize"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+	</LinearLayout>
+	<ListView android:id="@+id/state_list"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:background="@color/white"/>
+</LinearLayout>

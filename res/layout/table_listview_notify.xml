@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+<TableLayout  
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:background="@color/white"
+  android:stretchColumns="1"
+  android:padding="@dimen/home_listview_notify_table_margin"
+  >
+  <TableRow>
+      <ImageView android:id="@+id/table_listview_notify_icon" 
+        android:src="@drawable/notify_lock" android:layout_gravity="center"
+      	/>
+  	  <TextView android:id="@+id/table_listview_notify_head_text"
+  	  	android:layout_column="1"
+  	 	android:text="@string/dummy"/>
+  	  <TextView android:id="@+id/table_listview_notify_date_text" 
+  	 	 android:textSize="@dimen/home_listview_notify_head_date_text_size"
+  	 	 android:gravity="right"
+  	 	 android:paddingRight="3dp"
+  	  	 android:text="@string/dummy"/>
+  </TableRow>
+  <TableRow>
+  	 <TextView android:id="@+id/table_listview_notify_contents_text"
+      	android:layout_margin="@dimen/home_listview_notify_contents_margin"
+ 	 	android:text="@string/dummy"
+ 	 	android:layout_span="3"
+ 	 	android:textSize="@dimen/home_listview_notify_contents_text_size"/>
+  </TableRow>
+
+
+</TableLayout>
+</LinearLayout>

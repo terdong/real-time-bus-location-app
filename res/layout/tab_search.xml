@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <ViewFlipper android:id="@+id/search_view_flipper"
+  		android:layout_width="fill_parent" android:layout_height="fill_parent" 
+	  	android:layout_weight="1">
+	  <TableLayout android:stretchColumns="*"
+ 			 android:layout_width="fill_parent" android:layout_height="wrap_content">
+ 			 <TableRow>
+  				<TextView android:text="@string/table_listview_stop_stop_content_title" 
+  							android:layout_gravity="center_horizontal"/>
+  			 </TableRow>
+  			 <TableRow>
+		  		<ListView android:id="@+id/search_list_stop"
+		  		android:cacheColorHint="#00000000"
+		  			android:background="@color/white"/>
+		  	 </TableRow>
+	  </TableLayout>
+	  <TableLayout
+ 			 android:layout_width="fill_parent" android:layout_height="fill_parent">
+  			 <TableRow>
+  				 <TextView android:text="@string/table_listview_line_content_first_title" 
+  				 	android:padding="3dip"
+  					android:layout_weight="1"
+  				 	android:gravity="center_horizontal"/>
+  				 <TextView android:text="@string/table_listview_line_content_second_title" 
+  				 	android:padding="3dip"
+  					android:layout_weight="1"
+  				 	android:gravity="center_horizontal"/>
+  				 <TextView android:text="@string/table_listview_line_content_third_title" 
+  				 	android:padding="3dip"
+  					android:layout_weight="1"
+  				 	android:gravity="center_horizontal"/>
+  			 </TableRow>
+		     <View android:layout_height="@dimen/search_listview_table_line_height"
+  					android:background="@color/black"/>
+  			 <TableRow>
+				  <ListView android:id="@+id/search_list_line" android:layout_span="3"
+				 	 android:layout_weight="1"
+				 	 android:cacheColorHint="#00000000"
+				  	android:background="@color/white"/>
+  			 </TableRow>
+	  </TableLayout>
+  </ViewFlipper>
+  	<RelativeLayout
+	  	android:layout_width="fill_parent" android:layout_height="wrap_content">
+	 	<Button android:id="@+id/search_btn_allsearch"
+	 		android:text="@string/search_btn_search_str"
+	 		android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+	  	<EditText android:id="@+id/search_edit"
+	 		android:layout_toRightOf="@id/search_btn_allsearch"
+	 		android:singleLine="true"
+	  		android:layout_width="fill_parent"
+	  		android:layout_height="wrap_content" android:lines="1"/>
+	</RelativeLayout>
+  	<RadioGroup android:id="@+id/search_radiogroup" 
+  		android:orientation="horizontal"
+  		android:layout_width="fill_parent" android:layout_height="wrap_content">
+  		<RadioButton android:id="@+id/search_radiobutton_stop"
+  			android:layout_weight="1"
+  			android:layout_marginLeft="30dp"
+  			android:checked="true"
+  			android:layout_width="fill_parent" android:layout_height="wrap_content"
+  			android:text="@string/search_radiobutton_stop_str"/>
+  		<!--
+  		<RadioButton android:id="@+id/search_radiobutton_goal"
+  			android:layout_weight="1"
+  			android:layout_width="wrap_content" android:layout_height="wrap_content"
+  			android:text="@string/search_radiobutton_goal_str"/>
+  		-->
+  		<RadioButton android:id="@+id/search_radiobutton_line" 
+  		android:layout_weight="1"
+  		android:text="@string/search_radiobutton_line_str" 
+  		android:layout_width="fill_parent" android:layout_height="wrap_content">
+ 	</RadioButton>
+</RadioGroup>
+</LinearLayout>

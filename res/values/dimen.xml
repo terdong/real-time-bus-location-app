@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<dimen name="state_msg_margin">20dp</dimen>
+<dimen name="state_busnum_margin">30dp</dimen>
+<dimen name="state_busnum_textsize">25sp</dimen>
+<dimen name="state_msg_textsize">40sp</dimen>
+<dimen name="state_msgright_textsize">20sp</dimen>
+<dimen name="search_listview_table_line_height">1px</dimen>
+<dimen name="search_listview_stop_textsize">20sp</dimen>
+<dimen name="home_top_img_left_size">35dp</dimen>
+<dimen name="home_top_img_margin">10dp</dimen>
+<dimen name="home_bus_img_size">300dp</dimen>
+<dimen name="home_bus_img_margin">30dp</dimen>
+<dimen name="home_top_img_right_size">50dp</dimen>
+<dimen name="home_listview_notify_contents_text_size">13sp</dimen>
+<dimen name="home_listview_notify_contents_margin">10dp</dimen>
+<dimen name="home_listview_notify_table_margin">5dp</dimen>
+<dimen name="home_listview_notify_head_date_text_size">10sp</dimen>
+</resources>

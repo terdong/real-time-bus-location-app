@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:stretchColumns="*"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  <TableRow android:id="@+id/table_listview_stop_content_row">
+  	<TextView android:id="@+id/table_listview_stop_content"
+  		android:textSize="@dimen/search_listview_stop_textsize"
+  		android:text="@string/dummy"
+  		android:gravity="center_horizontal"
+  		android:textColor="@color/black"
+  		android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+  </TableRow>
+  <View android:layout_height="@dimen/search_listview_table_line_height"
+  		android:background="@color/black"/>
+  <TableRow android:id="@+id/table_listview_stop_line_row"
+  		android:visibility="gone">
+  </TableRow>
+</TableLayout>
